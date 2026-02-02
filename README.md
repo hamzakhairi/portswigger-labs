@@ -49,24 +49,6 @@ The labs simulate real vulnerabilities found in production systems.
 
 ---
 
-## 🗂 Repository Structure
-```
-.
-├── SQL-Injection/
-│ ├── lab-01.md
-│ ├── lab-02.md
-│ └── screenshots/
-├── XSS/
-│ ├── reflected-xss.md
-│ ├── stored-xss.md
-│ └── screenshots/
-├── SSRF/
-├── XXE/
-├── SSTI/
-├── Authentication/
-└── README.md
-```
-
 ## 👤 Author
 
 **Hamza Khairi**  
