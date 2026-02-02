@@ -50,7 +50,7 @@ The labs simulate real vulnerabilities found in production systems.
 ---
 
 ## 🗂 Repository Structure
-
+```
 .
 ├── SQL-Injection/
 │ ├── lab-01.md
@@ -65,6 +65,7 @@ The labs simulate real vulnerabilities found in production systems.
 ├── SSTI/
 ├── Authentication/
 └── README.md
+```
 
 ## 👤 Author
 
