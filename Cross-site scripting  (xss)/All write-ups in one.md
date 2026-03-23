@@ -1,5 +1,5 @@
-[DOM XSS in document.write sink using source location.search](./DOM-XSS-in-`document.write`-sink using source-`location.search`)
-[DOM XSS in jQuery anchor href attribute sink using location.search source](./DOM-XSS-in-jQuery-anchor-`href`-attribute-sink using-`location.search`-source)
+[DOM XSS in document.write sink using source location.search](DOM-XSS-in-`document.write`-sink using source-`location.search`)
+[DOM XSS in jQuery anchor href attribute sink using location.search source](DOM-XSS-in-jQuery-anchor-`href`-attribute-sink using-`location.search`-source)
 
 
 
@@ -162,6 +162,6 @@ Specifically, the application does not restrict dangerous URI schemes such as `j
 
 ### ✅ Fixed
 
-Validate and sanitize user input before assigning it to `href`
-Disallow dangerous protocols such as `javascript:`
+Validate and sanitize user input before assigning it to `href` .
+Disallow dangerous protocols such as `javascript:` .
 
