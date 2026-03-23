@@ -11,13 +11,10 @@ This lab contains a **DOM-based Cross-Site Scripting (XSS)** vulnerability in th
 
 The vulnerability arises because user-controlled data from the URL (`location.search`) is passed directly into the `document.write()` function without proper sanitization.
 
----
-
 ### 🎯 Objective
 
 Perform a DOM-based XSS attack that triggers the `alert()` function.
 
----
 ### 🔍 Analysis
 
 The following JavaScript code is responsible for handling the search query:
@@ -42,9 +39,6 @@ if (query) {
 - **Sink**: `document.write()`
 - The user input (`search` parameter) is directly injected into HTML without encoding.
 - This allows an attacker to break out of the HTML context and inject arbitrary JavaScript.
-
----
-
 ### 💥 Exploitation
 
 The input is inserted inside an HTML attribute:
@@ -63,7 +57,6 @@ By injecting a closing quote (`"`), we can break out of the attribute and insert
 https://URL/?search="/><script>alert(1)</script>
 ```
 
----
 ### ⚠️ Impact
 
 An attacker can execute arbitrary JavaScript in the victim's browser, potentially leading to:
@@ -71,8 +64,6 @@ An attacker can execute arbitrary JavaScript in the victim's browser, potentiall
 - Session hijacking
 - Credential theft
 - Malicious actions on behalf of the user
-
----
 
 ### 🤖 Exploit Script
 
@@ -99,12 +90,11 @@ else:
 ```
 
 
----
----
 
 
 ---
----
+
+
 
 ## 🧪DOM XSS in jQuery anchor `href` attribute sink using `location.search` source
 
