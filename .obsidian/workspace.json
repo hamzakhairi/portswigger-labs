@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "992de3838b520171",
+        "id": "350b8e53dd91a4f1",
         "type": "tabs",
         "children": [
           {
-            "id": "220a6ad52d5cae72",
+            "id": "a33205815eb4bc2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,11 +180,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "220a6ad52d5cae72",
+  "active": "a33205815eb4bc2a",
   "lastOpenFiles": [
-    "Cross-site scripting  (xss)/What is Cross site scripting.md",
-    "Cross-site scripting  (xss)/All write-ups in one.md",
     "DOM-XSS-in-`document.write`-sink.md",
+    "Cross-site scripting  (xss)/All write-ups in one.md",
+    "Cross-site scripting  (xss)/What is Cross site scripting.md",
     "Authentication/Broken brute-force protection, IP block.md",
     "Cross-site scripting  (xss)",
     "Authentication/Password reset broken logic.md",
