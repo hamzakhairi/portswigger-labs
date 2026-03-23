@@ -1,6 +1,6 @@
 [DOM XSS in document.write sink using source location.search](###DOM-XSS-in-document-write-sink-using-source-location-search) .
 
-[DOM XSS in jQuery anchor href attribute sink using location.search source](DOM-XSS-in-jQuery-anchor-href-attribute-sink-using-location-search-source) .
+[DOM XSS in jQuery anchor href attribute sink using location.search source](#DOM-XSS-in-jQuery-anchor-href-attribute-sink-using-location-search-source) .
 
 
 
