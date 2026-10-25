@@ -1,57 +1,25 @@
-# PortSwigger Web Security Academy – Complete Labs Journey
+# PortSwigger Web Security Academy Writeups
 
-This repository documents my personal journey of solving **all PortSwigger Web Security Academy labs**, covering real-world web application security vulnerabilities.
+This repository contains my personal writeups and notes from the [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs.
 
-The goal of this project is to **deeply understand web vulnerabilities**, practice exploitation techniques, and demonstrate practical offensive security skills using **custom payloads, scripts, and proof-of-concepts**.
+The goal of this repository is to document my progress in web application penetration testing, improve my understanding of common web vulnerabilities, and develop practical exploitation skills.
 
----
+## What You'll Find
 
-## 📌 About PortSwigger Web Security Academy
+The writeups are organized by vulnerability category, such as SQL Injection, Cross-Site Scripting (XSS), Access Control, SSRF, and others.
 
-PortSwigger Web Security Academy is one of the most respected hands-on platforms for learning web security, created by the developers of **Burp Suite**.  
-The labs simulate real vulnerabilities found in production systems.
+Each lab writeup focuses on:
 
----
+- **Objective:** What the lab requires.
+- **Reconnaissance:** How I identified the vulnerability.
+- **Exploitation:** The steps and HTTP requests used to exploit it.
+- **Why It Works:** The technical reason behind the vulnerability.
+- **What I Learned:** Key takeaways from the lab.
 
-## 🧠 What This Repository Contains
+## Purpose
 
-- ✅ Step-by-step lab solutions  
-- ✅ Clear vulnerability explanations  
-- ✅ Custom payloads & exploitation logic  
-- ✅ Screenshots as proof of completion  
-- ✅ Notes on common mistakes and bypass techniques  
-- ✅ Some labs solved **without relying fully on Burp automation**
+These writeups are part of my hands-on cybersecurity learning journey. All testing is performed in PortSwigger's authorized lab environments.
 
-> ⚠️ **Educational purpose only** – all labs are solved in a legal, controlled environment.
+The repository will be updated as I complete more labs and learn new techniques.
 
----
-
-## 🧪 Vulnerabilities Covered
-
-- SQL Injection (SQLi)
-- Cross-Site Scripting (XSS)
-- Cross-Site Request Forgery (CSRF)
-- Authentication vulnerabilities
-- Access control issues
-- File upload vulnerabilities
-- Path traversal
-- Server-Side Request Forgery (SSRF)
-- XML External Entity (XXE)
-- Server-Side Template Injection (SSTI)
-- OS Command Injection
-- Business logic flaws
-- WebSockets vulnerabilities
-- HTTP request smuggling
-- OAuth authentication flaws
-- Insecure deserialization
-- Race conditions
-- Prototype pollution
-
----
-
-## 👤 Author
-
-**Hamza Khairi**  
-Security Enthusiast | Web Pentesting Learner  
-
-If you find this repository useful, feel free to ⭐ star it.
+enjoy  .

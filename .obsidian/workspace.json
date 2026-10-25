@@ -1,59 +1,111 @@
 {
   "main": {
-    "id": "71ed4aa536c7ad0a",
+    "id": "de3ff0b379d0d01c",
     "type": "split",
     "children": [
       {
-        "id": "350b8e53dd91a4f1",
+        "id": "293a357422272ec6",
         "type": "tabs",
         "children": [
           {
-            "id": "a33205815eb4bc2a",
+            "id": "7a4859c57902f518",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cross-site scripting  (xss)/All write-ups in one.md",
+                "file": "access-control-vulnerabilities/blueprint.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "All write-ups in one"
+              "title": "blueprint"
+            }
+          },
+          {
+            "id": "567d8a3bf7766aa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "0185418e35826989",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a100e8ed09386c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "access-control-vulnerabilities/Lab 1 Unprotected admin functionality.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lab 1 Unprotected admin functionality"
+            }
+          },
+          {
+            "id": "6b4ba845c98f8c79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "access-control-vulnerabilities/blueprint.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "blueprint"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "9aae2f2f32bb30a1",
+    "id": "6ce60a2650d53fd5",
     "type": "split",
     "children": [
       {
-        "id": "9fb0a8efbe876605",
+        "id": "771786ae3c9fe260",
         "type": "tabs",
         "children": [
           {
-            "id": "2b14679218bf7149",
+            "id": "69568ffcaf116810",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-            "id": "8c03359c7cc8d144",
+            "id": "f1dae37bf97ae1e6",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#horizontal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +117,14 @@
             }
           },
           {
-            "id": "800fa6fa3e5e1bbe",
+            "id": "ccb7bf676ce171e0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
@@ -78,22 +133,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5026054382324
+    "width": 200
   },
   "right": {
-    "id": "8d0e0b6ebbe74f83",
+    "id": "653fa9b46b8d9cfd",
     "type": "split",
     "children": [
       {
-        "id": "3434912983a628dc",
+        "id": "353ffee419948f7d",
         "type": "tabs",
         "children": [
           {
-            "id": "c769fc8aa1ad3c5a",
+            "id": "e4c52cf9064fec1b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,11 +163,12 @@
             }
           },
           {
-            "id": "7f428042b742f671",
+            "id": "188f91132df95c32",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -120,7 +177,7 @@
             }
           },
           {
-            "id": "0afbe3098ee21a44",
+            "id": "1cab207a72d5550d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +192,7 @@
             }
           },
           {
-            "id": "144d8325f69a0310",
+            "id": "0823806b09c85682",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -149,11 +206,12 @@
             }
           },
           {
-            "id": "1be6e377a9762de3",
+            "id": "d0207bdfb9024f80",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -166,7 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -180,47 +238,48 @@
       "bases:Create new base": false
     }
   },
-  "active": "a33205815eb4bc2a",
+  "active": "567d8a3bf7766aa9",
   "lastOpenFiles": [
-    "DOM-XSS-in-`document.write`-sink.md",
-    "Cross-site scripting  (xss)/All write-ups in one.md",
-    "Cross-site scripting  (xss)/What is Cross site scripting.md",
-    "Authentication/Broken brute-force protection, IP block.md",
-    "Cross-site scripting  (xss)",
-    "Authentication/Password reset broken logic.md",
-    "Authentication/Username enumeration via subtly different responses.md",
-    "images/Screenshot from 2026-03-01 15-20-16.png",
-    "Authentication/2FA simple bypass.md",
-    "Authentication/Username enumeration via different responses.md",
-    "Access control vulnerabilities/Insecure direct object references.md",
-    "Authentication",
-    "Access control vulnerabilities/User ID controlled by request parameter with password disclosure.md",
-    "images/Screenshot from 2026-02-25 16-31-07.png",
+    "access-control-vulnerabilities/Lab 3 User role can be modified in user profile.md",
+    "portswigger-labs/images/Screenshot from 2026-03-01 15-20-16.png",
+    "portswigger-labs/images/Screenshot from 2026-02-25 16-31-07.png",
+    "portswigger-labs/images/Screenshot from 2026-02-25 14-41-32.png",
+    "portswigger-labs/images/Screenshot from 2026-02-25 12-47-37.png",
+    "portswigger-labs/images/Screenshot from 2026-02-23 17-32-05.png",
+    "portswigger-labs/images/Screenshot from 2026-02-23 17-30-44.png",
+    "portswigger-labs/images/Screenshot from 2026-02-23 17-10-38.png",
+    "portswigger-labs/images/Screenshot from 2026-02-23 16-49-20.png",
+    "portswigger-labs/images/Pasted image 20260223173255.png",
+    "portswigger-labs/images",
+    "portswigger-labs/README.md",
+    "portswigger-labs/Cross-site scripting  (xss)/What is Cross site scripting.md",
+    "portswigger-labs/Cross-site scripting  (xss)/All write-ups in one.md",
+    "portswigger-labs/Cross-site scripting  (xss)",
+    "portswigger-labs/Authentication/Username enumeration via subtly different responses.md",
+    "portswigger-labs/Authentication/Username enumeration via different responses.md",
+    "portswigger-labs/Authentication/Password reset broken logic.md",
+    "portswigger-labs/Authentication/Broken brute-force protection, IP block.md",
+    "portswigger-labs/Authentication/2FA simple bypass.md",
+    "portswigger-labs/Authentication",
+    "portswigger-labs/Access control vulnerabilities/User role controlled by request parameter.md",
+    "portswigger-labs/Access control vulnerabilities/User role can be modified in user profile.md",
+    "portswigger-labs/Access control vulnerabilities/User ID controlled by request parameter.md",
+    "portswigger-labs/Access control vulnerabilities/User ID controlled by request parameter, with unpredictable user IDs.md",
+    "portswigger-labs/Access control vulnerabilities/User ID controlled by request parameter with data leakage in redirect.md",
+    "portswigger-labs/Access control vulnerabilities/User ID controlled by request parameter with password disclosure.md",
+    "portswigger-labs/Access control vulnerabilities/Unprotected admin functionality.md",
+    "portswigger-labs/Access control vulnerabilities/Unprotected admin functionality with unpredictable URL.md",
+    "portswigger-labs/Access control vulnerabilities/Insecure direct object references.md",
+    "portswigger-labs/Access control vulnerabilities",
+    "portswigger-labs",
     "README.md",
-    "gg/access-control/README.md",
-    "gg/access-control/LAB : lunprotected-admin-functionality.md",
-    "gg/access-control",
-    "gg/SUMMARY.md",
-    "gg/README.md",
-    "gg",
-    "images/Pasted image 20260223173255.png",
-    "Access control vulnerabilities/User ID controlled by request parameter with data leakage in redirect.md",
-    "Access control vulnerabilities/User ID controlled by request parameter, with unpredictable user IDs.md",
-    "images/Screenshot from 2026-02-25 14-41-32.png",
-    "().md",
-    "Access control vulnerabilities/User ID controlled by request parameter.md",
-    "Access control vulnerabilities/User role can be modified in user profile.md",
-    "images/Screenshot from 2026-02-25 12-47-37.png",
-    "Access control vulnerabilities/User role controlled by request parameter.md",
-    "images/![[.md",
-    "images/Screenshot from 2026-02-23 17-32-05.png",
-    "images/Screenshot from 2026-02-23 17-30-44.png",
-    "Access control vulnerabilities/Unprotected admin functionality with unpredictable URL.md",
-    "images/Screenshot from 2026-02-23 17-10-38.png",
-    "Access control vulnerabilities/Unprotected admin functionality.md",
-    "Screenshot from 2025-12-24 17-47-07.png",
-    "images/Screenshot from 2026-02-23 16-49-20.png",
-    "images",
-    "Access control vulnerabilities"
+    "access-control-vulnerabilities/Lab 2 Unprotected admin functionality with unpredictable URL.md",
+    "access-control-vulnerabilities/blueprint.md",
+    "access-control-vulnerabilities/Lab 1 Unprotected admin functionality.md",
+    "access-control-vulnerabilities/access-control-vulnerabilities.md",
+    "access-control-vulnerabilities/screenshot/Screenshot from 2026-10-25 16-40-37.png",
+    "screenshot",
+    "access-control-vulnerabilities/screenshot",
+    "access-control-vulnerabilities"
   ]
 }
