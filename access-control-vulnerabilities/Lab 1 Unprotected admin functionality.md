@@ -57,7 +57,7 @@ Inside the panel, we find functionality that allows us to delete users.
 We select the user `carlos` and delete the account, successfully completing the lab.
 ### Evidence
 
-![[/images/Screenshot from 2026-10-25 16-40-37.png]]
+![Evidence](/images/Screenshot from 2026-10-25 16-40-37.png)
 
 
 ## 4. Root Cause
